@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/* ESTILOS CELULAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pie {
+    position: absolute;
+}
+.contenedor {
+    margin: auto;
+    
+    
+}
+
+.menu_pie  ul {
+    list-style: none;
+    display: flex;
+    
+    
+
+}
+
+.menu_pie ul li a {
+    text-decoration: none;
+    color: rgb(0, 77, 201);
+    padding: 8px 14px;
+    border: 1px solid transparent;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    
+    
+    
+}
+.menu_pie ul li a:hover {
+    color: #00C1B3;
+    
+    
+    
+}
+
+.iconos ul {
+    list-style: none;
+    display: flex;
+    padding: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.iconofa:hover {
+    color: #00C1B3;
+}
+
+.iconofa {
+    color: rgb(0, 77, 201);
+    margin-right: 18px;
+    font-size: 18px;
+}
+.logo-pie {
+    width: 199px;
+    padding: 5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+p {
+    color: rgb(0, 77, 201);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 7px;
+    padding: 5vh;
+    text-align: center;
+}
