@@ -40,7 +40,10 @@
     
     
 }
-
+.iconos {
+    display: table;
+    margin: 0 auto;
+}
 .iconos ul {
     list-style: none;
     display: flex;
@@ -49,6 +52,10 @@
     margin-right: auto;
     
     
+}
+
+.iconos ul li {
+    display: inline;
 }
 .iconofa:hover {
     color: #00C1B3;
