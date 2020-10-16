@@ -1,35 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 /* ESTILOS CELULAR */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.franja{
+    width:100%;
+    background-color: #9ACCEF;
+    height: 5px ;
+    
+    border:1px transparent;
+    position:relative;
+}
 .pie {
     position: absolute;
+    width: 100%;
 }
 .contenedor {
     margin: auto;
+    padding-top: 5%;
     
     
 }
-
+.menu_pie {
+    display: table;  
+    margin: 0 auto;
+    font-size: 12px;
+}
 .menu_pie  ul {
     list-style: none;
-    display: flex;
     
     
 
 }
-
+.menu_pie ul li {
+    display: inline;
+}
 .menu_pie ul li a {
     text-decoration: none;
     color: rgb(0, 77, 201);
-    padding: 8px 14px;
+    padding: auto;
     border: 1px solid transparent;
     text-align: center;
     font-family: 'Fredoka One', cursive;
+    font-size: small;
     
     
     
@@ -68,7 +85,7 @@
 }
 .logo-pie {
     width: 199px;
-    padding: 5vh;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -76,10 +93,53 @@
     
 }
 
-p {
+.creditos{
     color: rgb(0, 77, 201);
     font-family: 'Quicksand', sans-serif;
     font-size: 7px;
-    padding: 5vh;
+    padding: 50px; 
     text-align: center;
+    
 }
+
+/* ESTILOS TABLET */
+@media screen and (min-width: 768px) {
+    .logo-pie {
+        width: 273px;
+}
+.menu_pie {
+    
+    padding: 5px;
+}
+.contenedor {
+
+    padding-top: 10%;
+    
+    
+}
+.creditos {
+    font-size: small;
+}
+
+}
+
+/* ESTILOS COMPU */
+@media screen and (min-width: 1200px) {
+    .contenedor{
+        display: flex;
+    }
+    .logo-pie {
+        width: 400px;
+}
+.creditos {
+    font-size: 12px;
+    text-align: start;
+}
+    
+    
+    
+
+}
+
+
+
