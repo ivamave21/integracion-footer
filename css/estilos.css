@@ -141,5 +141,75 @@
 
 }
 
+/* GALERIA ESTILOS CELULAR*/
+.body-galeria {
+    margin: auto;
+    background-color: #00C1B3;
+    align-content: center;
+}
+.cont_galeria {
+    width: 100%;
+    margin:  auto;
+    
+}
+.mt {
+    margin-top: 10px;
+}
+
+.galeria-txt{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 12px;
+    margin-top: auto;
+    padding: 10px;
+}
+.galeria {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-flow: wrap;
+    background-color: #00d4c6;
+    justify-content: center;
+    
+}
+.galeria li {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+
+}
+.galeria li a img {
+    width: 100%;
+    display: block;
+    transition: all .05s;
+    
+}
+.galeria li a img:hover {
+    transform: scale(1.05);
+}
+/* GALERIA ESTILOS TABLET*/
+@media screen and (min-width: 768px) {
+
+    .galeria-txt {
+        font-size:26px;
+    }
+
+}
+
+/* GALERIA ESTILOS COMPU*/
+@media screen and (min-width: 1200px) {
+
+    .galeria-txt {
+        font-size:  40px;
+    }
+
+}
+
+
+
+
 
 
