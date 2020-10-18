@@ -364,6 +364,7 @@
   
   .formulario{
     background-image: linear-gradient(to right, #8CD2ED, #63A6D9, #1F9BD7);
+    
   }
   .radio {
     font-family: 'Quicksand', sans-serif;
@@ -374,6 +375,23 @@
   .checkbox label, .radio label{
       font-weight: 700;
   }
+
+  .vaquita {
+    width:80%;
+    margin-top: 50%;
+  }
+  .img-vaquita{
+    width: 100%;
+
+
+  }
+  .vista-1{
+      display: inline-flex ;
+      vertical-align: middle;
+
+  }
+
+
 
 
 
