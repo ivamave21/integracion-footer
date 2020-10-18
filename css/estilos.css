@@ -441,6 +441,53 @@ div.thumbnail{
 
 /* Estilos producto */
 
+.franja-header{
+  background-color:#B8EDEA;
+  overflow:auto;
+}
 
+.franja-header .texto{
+  float:left;
+  border:1px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.franja-header .carrito{
+  font-size: 5px;
+  display:flex;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.franja-header .carrito p{
+  padding-top: 5px;
+  font-family:'Fredoka One', cursive;
+  color: #004CCD;
+  padding-bottom: 1px;
+  
+}
+.franja-header .por-ti {
+  font-family:'Fredoka One', cursive;
+  color: #004CCD;
+  font-size: 10px;
+  
+}
+
+.franja-header .año{
+  font-family: 'Quicksand', sans-serif;
+  color: #004CCD;
+  font-weight: 70px;
+  font-size: 5px;
+}
+
+.franja-header .carrito .iconfa{
+  color:white;
+  font-size:20px;
+  margin-right: 10px;
+  
+}
 
