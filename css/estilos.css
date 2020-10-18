@@ -369,28 +369,55 @@
   font-family: 'Quicksand', sans-serif;
   color: #004CCD;
 }
-
-.carrers{
+.contacto{
   background-image: url("../images/mancha.svg");
   width:auto;
   background-repeat: no-repeat;
   background-size: cover;
-  height:480px;
- 
+  height:500px;
+}
+.carrers{
+  padding:50px;
 
 }
 
-.carrers ul{
+.carrers ul div{
   list-style-type: none;
-  padding-left:40%;
+  /* padding-left:40%; */
   margin: 0;
-  align-content: center;
   
 }
 .carrers ul img {
   width:90px
 }
+.carrers li{
+  margin: -50px;
+  
+}
+.carrers div{
+  text-align: center;  
+  
+}
+.carrers  .desc-img{
+  font-family:'Fredoka One', cursive;
+  color:#00d4c6;
+}
 
+.contacto .info{
+  padding-left: 50px;
+}
+.contacto .nosotros{
+  color:white;
+  font-family:'Fredoka One', cursive;
+  font-size: 24px;
+  
+}
+
+.contacto .correo{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+
+}
 
 
 
