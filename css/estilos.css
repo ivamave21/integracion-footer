@@ -3,337 +3,357 @@
 
 /* ESTILOS CELULAR */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .franja{
-    width:100%;
-    background-color: #9ACCEF;
-    height: 5px ;
-    
-    border:1px transparent;
-    position:relative;
+  width:100%;
+  background-color: #9ACCEF;
+  height: 5px ;
+  
+  border:1px transparent;
+  position:relative;
 }
 .pie {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
+  text-align:center;
 }
 .contenedor {
-    margin: auto;
-    padding-top: 5%;
-    
-    
+  margin: auto;
+  padding-top: 5%;
+  
+  
 }
 .menu_pie {
-    display: table;  
-    margin: 0 auto;
-    font-size: 12px;
+  display: table;  
+  margin: 0 auto;
+  font-size: 12px;
 }
 .menu_pie  ul {
-    list-style: none;
-    
-    
-
+  list-style: none;
+  
+  
+  
 }
 .menu_pie ul li {
-    display: inline;
+  display: inline;
 }
 .menu_pie ul li a {
-    text-decoration: none;
-    color: rgb(0, 77, 201);
-    padding: auto;
-    border: 1px solid transparent;
-    text-align: center;
-    font-family: 'Fredoka One', cursive;
-    font-size: small;
-    
-    
-    
+  text-decoration: none;
+  color: rgb(0, 77, 201);
+  padding: auto;
+  border: 1px solid transparent;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: small;
+  
+  
+  
 }
 .menu_pie ul li a:hover {
-    color: #00C1B3;
-    
-    
-    
+  color: #00C1B3;
+  
+  
+  
 }
 .iconos {
-    display: table;
-    margin: 0 auto;
+  display: table;
+  margin: 0 auto;
 }
 .iconos ul {
-    list-style: none;
-    display: flex;
-    padding: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
+  list-style: none;
+  display: flex;
+  padding: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
 }
 
 .iconos ul li {
-    display: inline;
+  display: inline;
 }
 .iconofa:hover {
-    color: #00C1B3;
+  color: #00C1B3;
 }
 
 .iconofa {
-    color: rgb(0, 77, 201);
-    margin-right: 18px;
-    font-size: 18px;
+  color: rgb(0, 77, 201);
+  margin-right: 18px;
+  font-size: 18px;
 }
 .logo-pie {
-    width: 199px;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
+  width: 199px;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
 }
 
 .creditos{
-    color: rgb(0, 77, 201);
-    font-family: 'Quicksand', sans-serif;
-    font-size: 7px;
-    padding: 50px; 
-    text-align: center;
-    
+  color: rgb(0, 77, 201);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 7px;
+  padding: 50px; 
+  text-align: center;
+  
 }
 
 /* ESTILOS TABLET */
 @media screen and (min-width: 768px) {
-    .logo-pie {
-        width: 273px;
-}
-.menu_pie {
+  .logo-pie {
+    width: 273px;
+  }
+  .menu_pie {
     
     padding: 5px;
-}
-.contenedor {
-
+  }
+  .contenedor {
+    
     padding-top: 10%;
     
     
-}
-.creditos {
+  }
+  .creditos {
     font-size: small;
-}
-
+  }
+  
 }
 
 /* ESTILOS COMPU */
 @media screen and (min-width: 1200px) {
-    .contenedor{
-        display: flex;
-    }
-    .logo-pie {
-        width: 400px;
-}
-.creditos {
-    font-size: 12px;
+  .contenedor{
+    display: flex;
+  }
+  .logo-pie {
+    width: 400px;
+    height: 110px;
+    display: inline-block;
+  }
+  .creditos {
+    font-size: 7px;
     text-align: start;
-}
-    
-    
-    
 
+  }
+  .menu_pie{
+    padding-top: 40px;
+    display: inline-block;
+    height: 110px;
+  }
+  .iconos{
+    display: inline-block;
+    height: 110px;
+  }
+  .iconos .lista-iconos{
+   align-items: center; 
+   display: flex;
+  }
+  #credito-parrafo p{
+   padding: 0;
+   text-align: left;
+   padding-left: 85px;
+  }
+  
+  
 }
 
 /* GALERIA ESTILOS CELULAR*/
 .body-galeria {
-    margin: auto;
-    background-color: #00C1B3;
-    align-content: center;
+  margin: auto;
+  background-color: #00C1B3;
+  align-content: center;
 }
 .cont_galeria {
-    width: 100%;
-    margin:  auto;
-    
+  width: 100%;
+  margin:  auto;
+  
 }
 .mt {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .galeria-txt{
-    text-align: center;
-    font-family: 'Fredoka One', cursive;
-    color: white;
-    font-size: 12px;
-    margin-top: auto;
-    padding: 10px;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  font-size: 12px;
+  margin-top: auto;
+  padding: 10px;
 }
 .galeria {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0;
-    display: flex;
-    flex-flow: wrap;
-    background-color: #00d4c6;
-    justify-content: center;
-    
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  flex-flow: wrap;
+  background-color: #00d4c6;
+  justify-content: center;
+  
 }
 .galeria li {
-    width: 30%;
-    padding: 10px;
-    box-sizing: border-box;
-    
-
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+  
+  
 }
 .galeria li a img {
-    width: 100%;
-    display: block;
-    transition: all .05s;
-    
+  width: 100%;
+  display: block;
+  transition: all .05s;
+  
 }
 .galeria li a img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 /* GALERIA ESTILOS TABLET*/
 @media screen and (min-width: 768px) {
-
-    .galeria-txt {
-        font-size:26px;
-    }
-
+  
+  .galeria-txt {
+    font-size:26px;
+  }
+  
 }
 
 /* GALERIA ESTILOS COMPU*/
 @media screen and (min-width: 1200px) {
-
-    .galeria-txt {
-        font-size:  40px;
-    }
-
+  
+  .galeria-txt {
+    font-size:  40px;
+  }
+  
 }
 
 /* CONTACTO-FORMULARIO ESTILOS */
 /* 
 .jf-form{
-    margin-top: 28px;
-  }
-  
-  .jf-form > form{
-    margin-bottom: 32px;
-  }
-  
-  .jf-option-box{
-    display: none;
-    margin-left: 8px;
-  }
-  
-  .jf-hide{
-    display: none;
-  }
-  
-  .jf-disabled {
-      background-color: #eeeeee;
-      opacity: 0.6;
-      pointer-events: none;
-  } */
-  
-  /* 
-  overwrite bootstrap default margin-left, because the <label> doesn't contain the <input> element.
-  */
-  .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
-    position: absolute;
-    margin-top: 4px \9;
-    margin-left: 0px;
-  }
-  
-  div.form-group{
-    padding: 8px 8px 4px 8px;
-  }
-  
-  .mainDescription{
-    margin-bottom: 10px;
-  }
-  
-  p.description{
-    margin:0px;
-  }
-  
-  .responsive img{
-    width: 100%;
-  }
-  
-  p.error, p.validation-error{
-    padding: 5px;
-  }
-  
-  p.error{
-    margin-top: 10px;
-    color:blue;
-  }
-  
-  p.server-error{
-    font-weight: bold;
-  }
-  
-  div.thumbnail{
-    position: relative;
-    text-align: center;
-  }
-  
-  .jf-copyright{
-    color: #2C4EC3; display: inline-block; margin: 16px;display:none;
-  }
-  
-  .form-group.required .control-label:after {
-      color: #2C4EC3;
-      content: "*";
-      margin-left: 6px;
-  }
+  margin-top: 28px;
+}
 
-  .control-label {
-      color: #2C4EC3;
-      font-family: 'Fredoka One', cursive;
+.jf-form > form{
+  margin-bottom: 32px;
+}
 
+.jf-option-box{
+  display: none;
+  margin-left: 8px;
+}
 
-  }
+.jf-hide{
+  display: none;
+}
+
+.jf-disabled {
+  background-color: #eeeeee;
+  opacity: 0.6;
+  pointer-events: none;
+} */
+
+/* 
+overwrite bootstrap default margin-left, because the <label> doesn't contain the <input> element.
+*/
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+  position: absolute;
+  margin-top: 4px \9;
+  margin-left: 0px;
+}
+
+div.form-group{
+  padding: 8px 8px 4px 8px;
+}
+
+.mainDescription{
+  margin-bottom: 10px;
+}
+
+p.description{
+  margin:0px;
+}
+
+.responsive img{
+  width: 100%;
+}
+
+p.error, p.validation-error{
+  padding: 5px;
+}
+
+p.error{
+  margin-top: 10px;
+  color:blue;
+}
+
+p.server-error{
+  font-weight: bold;
+}
+
+div.thumbnail{
+  position: relative;
+  text-align: center;
+}
+
+.jf-copyright{
+  color: #2C4EC3; display: inline-block; margin: 16px;display:none;
+}
+
+.form-group.required .control-label:after {
+  color: #2C4EC3;
+  content: "*";
+  margin-left: 6px;
+}
+
+.control-label {
+  color: #2C4EC3;
+  font-family: 'Fredoka One', cursive;
   
-  .form-control {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 8px;
-    color: #2C4EC3;
-
-  }
-
-  .btn{
-    font-family: 'Quicksand', sans-serif;
-  }
   
-  .formulario{
-    background-image: linear-gradient(to right, #8CD2ED, #63A6D9, #1F9BD7);
-    
-  }
-  .radio {
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-   
+}
 
-  }
-  .checkbox label, .radio label{
-      font-weight: 700;
-  }
+.form-control {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 8px;
+  color: #2C4EC3;
+  
+}
 
-  .vaquita {
-    width:80%;
-    margin-top: 80%;
-    border-color: coral;
-  }
-  .img-vaquita{
-    width: 100%;
+.btn{
+  font-family: 'Quicksand', sans-serif;
+}
 
+.formulario{
+  background-image: linear-gradient(to right, #8CD2ED, #63A6D9, #1F9BD7);
+  
+}
+.radio {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  
+  
+}
+.checkbox label, .radio label{
+  font-weight: 700;
+}
 
-  }
-  .formulario-imagen{
-      display: inline-flex ;
-      vertical-align: middle;
-
-  }
+.vaquita {
+  width:80%;
+  margin-top: 80%;
+  border-color: coral;
+}
+.img-vaquita{
+  width: 100%;
+  
+  
+}
+.formulario-imagen{
+  display: inline-flex ;
+  vertical-align: middle;
+  
+}
 .formulario .titulo{
   text-align: center;
   font-family: 'Fredoka One', cursive;
@@ -378,7 +398,7 @@
 }
 .carrers{
   padding:50px;
-
+  
 }
 
 .carrers ul div{
@@ -416,7 +436,7 @@
 .contacto .correo{
   color:white;
   font-family: 'Quicksand', sans-serif;
-
+  
 }
 
 
