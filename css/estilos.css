@@ -210,7 +210,7 @@
 }
 
 /* CONTACTO-FORMULARIO ESTILOS */
-
+/* 
 .jf-form{
     margin-top: 28px;
   }
@@ -232,7 +232,7 @@
       background-color: #eeeeee;
       opacity: 0.6;
       pointer-events: none;
-  }
+  } */
   
   /* 
   overwrite bootstrap default margin-left, because the <label> doesn't contain the <input> element.
@@ -277,73 +277,16 @@
     text-align: center;
   }
   
-  div.thumbnail.selected p{
-    color: #ffffff;
+  .jf-copyright{
+    color: #2C4EC3; display: inline-block; margin: 16px;display:none;
   }
-  
-  div.thumbnail .glyphicon-ok-circle{
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    color: #ffffff;
-    font-size: 32px;
-  }
-  
-  .jf-copyright{color: #2C4EC3; display: inline-block; margin: 16px;display:none;}
   
   .form-group.required .control-label:after {
       color: #2C4EC3;
       content: "*";
       margin-left: 6px;
   }
-  
-  .submit .btn.disabled, .submit .btn[disabled]{
-    background: transparent;
-    opacity: 0.75;
-  }
-  
-  /* for image option with span text */
-  .checkbox label > span, .radio label > span{
-    display: block;
-  }
-  
-  .form-group.inline .control-label,
-  .form-group.col-1 .control-label,
-  .form-group.col-2 .control-label,
-  .form-group.col-3 .control-label
-  {
-    display: block;
-  }
-  
-  .form-group.inline div.radio,
-  .form-group.inline div.checkbox{
-    display: inline-block;
-  }
-  
-  .form-group.col-1 div.radio,
-  .form-group.col-1 div.checkbox{
-    display: block;
-  }
-  
-  .form-group.col-2 div.radio,
-  .form-group.col-2 div.checkbox{
-    display: inline-flex;
-    width: 48%;
-  }
-  
-  .form-group.col-3 div.radio,
-  .form-group.col-3 div.checkbox{
-    display: inline-flex;
-    width: 30%;
-  }
-  
-  .clearfix:after {
-     content: ".";
-     visibility: hidden;
-     display: block;
-     height: 0;
-    clear: both;
-  }
+
   .control-label {
       color: #2C4EC3;
       font-family: 'Fredoka One', cursive;
@@ -353,7 +296,7 @@
   
   .form-control {
     font-family: 'Quicksand', sans-serif;
-    font-size: 10px;
+    font-size: 8px;
     color: #2C4EC3;
 
   }
@@ -378,18 +321,76 @@
 
   .vaquita {
     width:80%;
-    margin-top: 50%;
+    margin-top: 80%;
+    border-color: coral;
   }
   .img-vaquita{
     width: 100%;
 
 
   }
-  .vista-1{
+  .formulario-imagen{
       display: inline-flex ;
       vertical-align: middle;
 
   }
+.formulario .titulo{
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  font-size:8pt;
+}
+
+.vista1{
+  border-style: solid;
+  border-color: #1F9BD7;
+  margin-left:50px;
+  margin-right:50px;
+}
+.direccion {
+  margin-left:50px;
+  margin-right:50px;
+}
+.direccion .titulo{
+  font-family:'Fredoka One', cursive;
+  color: #004CCD;
+}
+
+.frame {
+  width:auto;
+}
+
+.direccion .descripcion{
+  font-family:'Fredoka One', cursive;
+  color: #004CCD;
+}
+
+.direccion .telefono{
+  font-family: 'Quicksand', sans-serif;
+  color: #004CCD;
+}
+
+.carrers{
+  background-image: url("../images/mancha.svg");
+  width:auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:480px;
+ 
+
+}
+
+.carrers ul{
+  list-style-type: none;
+  padding-left:40%;
+  margin: 0;
+  align-content: center;
+  
+}
+.carrers ul img {
+  width:90px
+}
+
 
 
 

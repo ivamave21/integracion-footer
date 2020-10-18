@@ -13,7 +13,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.0/css/bootstrap-datepicker3.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
-    
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+    </script>
     
     
     
@@ -21,91 +25,113 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <div class = "vista-1">
-        <div class="vaquita">
-            <img class="img-vaquita" src="images/vaca-elportillo.svg" alt="">
-        </div>   
-        <div class="formulario">
-            <!-- Inicio formulario -->
-            <div class="container jf-form">
-                <form data-licenseKey="" name="jqueryform-8bbd53" id="jqueryform-8bbd53" action='contacto.html' method='post' enctype='multipart/form-data' novalidate autocomplete="on">
-                    <input type="hidden" name="method" value="validateForm">
-                    <input type="hidden" id="serverValidationFields" name="serverValidationFields" value="">
-                    <div class="form-group f1 required" data-fid="f1">
-                        <label class="control-label" for="f1">Nombre</label>
-                        <div class="input-group"><span class="input-group-addon left"><i class="glyphicon glyphicon-user"></i> </span>
-                            <input type="text" class="form-control" id="f1" name="f1" value=""   placeholder="Nombre y Apellido " 
-                            data-rule-required="true"  />
-                        </div>
-                    </div>
-                    <div class="form-group f2 required" data-fid="f2">
-                        <label class="control-label" for="f2">Teléfono</label>
-                        <div class="input-group"><span class="input-group-addon left"><i class="fa fa-phone"></i> </span>
-                            <input type="email" class="form-control" id="f2" name="f2" value=""  placeholder="Celular o teléfono de contacto" 
-                            data-rule-email="true" 
-                            data-rule-required="true"  />
-                        </div>
-                    </div>
-                    <div class="form-group f3 required" data-fid="f3">
-                        <label class="control-label" for="f3">Correo</label>
-                        <div class="input-group"><span class="input-group-addon left"><i class="fa fa-envelope"></i> </span>
-                            <textarea class="form-control" id="f3" name="f3" rows="3"  placeholder="Correo electrónico " 
-                            data-rule-required="true" ></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group f4 required" data-fid="f4">
-                        <label class="control-label" for="f4">¿Cómo te podemos ayudar?</label>
-                        <div class="input-group"><span class="input-group-addon left"><i class="fa fa-question-circle"></i> </span>
-                            <input type="text" class="form-control" id="f4" name="f4" value=""   placeholder="Describe en pocas palabras como te podemos ayudar" 
-                            data-rule-required="true"  />
-                        </div>
-                    </div>
-                    <div class="form-group f7 required col-1" data-fid="f7">
-                        <label class="control-label" for="f7">Selecciona la razón por la que nos escribes</label>
-                        <div class="radio">
-                            <input  id="f7_1" name="f7" checked type="radio" value="Petición" 
-                            data-rule-min=""  
-                            data-rule-required="true"  >
-                            <label  for="f7_1">
-                                Petición
-                            </label>
-                        </div>
-                        <div class="radio">
-                            <input  id="f7_2" name="f7"  type="radio" value="Queja o reclamo"  >
-                            <label  for="f7_2">
-                                Queja o reclamo
-                            </label>
-                        </div>
-                        <div class="radio">
-                            <input  id="f7_3" name="f7"  type="radio" value="Duda"  >
-                            <label  for="f7_3">
-                                Duda
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form-group submit f0 " data-fid="f0" style="position: relative;">
-                        <label class="control-label sr-only" for="f0" style="display: block;">Submit Button</label>
-                        <div class="progress" style="display: none; z-index: -1; position: absolute;">
-                            <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%">
+    <div class="vista1">
+        <div class = "formulario-imagen">
+            <div class="vaquita">
+                <img class="img-vaquita" src="images/vaca-elportillo.svg" alt="">
+            </div>   
+            <div class="formulario">
+                <h2 class="titulo">CONTACTATE CON NOSOTROS </h2>
+                <!-- Inicio formulario -->
+                <div class="container jf-form">
+                    <form data-licenseKey="" name="jqueryform-8bbd53" id="jqueryform-8bbd53" action='contacto.html' method='post' enctype='multipart/form-data' novalidate autocomplete="on">
+                        <input type="hidden" name="method" value="validateForm">
+                        <input type="hidden" id="serverValidationFields" name="serverValidationFields" value="">
+                        <div class="form-group f1 required" data-fid="f1">
+                            <label class="control-label" for="f1">Nombre</label>
+                            <div class="input-group"><span class="input-group-addon left"><i class="glyphicon glyphicon-user"></i> </span>
+                                <textarea class="form-control" id="f1" name="f1" rows="2"  placeholder="Nombre y Apellido " 
+                                data-rule-required="true" ></textarea>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg" style="z-index: 1;">
-                            <span class="fa fa-send-o" aria-hidden="true"></span>
-                            Enviar 
-                        </button>
-                    </div><div class="clearfix"></div>
-                    <div class="submit">
-                        <p class="error bg-warning" style="display:none;">
-                            Please check the required fields.  </p>
+                        <div class="form-group f2 required" data-fid="f2">
+                            <label class="control-label" for="f2">Teléfono</label>
+                            <div class="input-group"><span class="input-group-addon left"><i class="fa fa-phone"></i> </span>
+                                <textarea class="form-control" id="f2" name="f2" rows="2"  placeholder="Celular o télefono " 
+                                data-rule-required="true" ></textarea>
+                            </div>
                         </div>
-                        <div class="clearfix"></div>
-                    </form>
-                    <a href="http://www.jqueryform.com" target="_blank" class="jf-copyright">Powered by jqueryform.com</a>
-                </div>
-                <div class="container jf-thankyou" style="display:none;" data-redirect="" data-seconds="15">
-                    <h3>{f1} gracias por comunicarte con Lácteos &quot;El Portillo&quot;, tu mensaje será leído y contestado en el menor tiempo posible.</h3>
+                        <div class="form-group f3 required" data-fid="f3">
+                            <label class="control-label" for="f3">Correo</label>
+                            <div class="input-group"><span class="input-group-addon left"><i class="fa fa-envelope"></i> </span>
+                                <textarea class="form-control" id="f3" name="f3" rows="3"  placeholder="Correo electrónico " 
+                                data-rule-required="true" ></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group f4 required" data-fid="f4">
+                            <label class="control-label" for="f4">¿Cómo te podemos ayudar?</label>
+                            <div class="input-group"><span class="input-group-addon left"><i class="fa fa-question-circle"></i> </span>
+                                <textarea class="form-control" id="f4" name="f4" rows="2"  placeholder="Describe en que te podemos ayudar " 
+                                data-rule-required="true" ></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group f7 required col-1" data-fid="f7">
+                            <label class="control-label" for="f7">Selecciona la razón por la que nos escribes</label>
+                            <div class="radio">
+                                <input  id="f7_1" name="f7" checked type="radio" value="Petición" 
+                                data-rule-min=""  
+                                data-rule-required="true"  >
+                                <label  for="f7_1">
+                                    Petición
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <input  id="f7_2" name="f7"  type="radio" value="Queja o reclamo"  >
+                                <label  for="f7_2">
+                                    Queja o reclamo
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <input  id="f7_3" name="f7"  type="radio" value="Duda"  >
+                                <label  for="f7_3">
+                                    Duda
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group submit f0 " data-fid="f0" style="position: relative;">
+                            <label class="control-label sr-only" for="f0" style="display: block;">Submit Button</label>
+                            <div class="progress" style="display: none; z-index: -1; position: absolute;">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg" style="z-index: 1;">
+                                <span class="fa fa-send-o" aria-hidden="true"></span>
+                                Enviar 
+                            </button>
+                        </div><div class="clearfix"></div>
+                        <div class="submit">
+                            <p class="error bg-warning" style="display:none;">
+                                Please check the required fields.  </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </form>
+                        <a href="http://www.jqueryform.com" target="_blank" class="jf-copyright">Powered by jqueryform.com</a>
+                    </div>
+                    <div class="container jf-thankyou" style="display:none;" data-redirect="" data-seconds="15">
+                        <h3>{f1} gracias por comunicarte con Lácteos &quot;El Portillo&quot;, tu mensaje será leído y contestado en el menor tiempo posible.</h3>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="direccion">
+            <h2 class="titulo">Visitanos!</h2>
+            <div class="mapa">
+                <iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.929738567332!2d-74.18956008523803!3d4.606601196653431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9e43c9619357%3A0x3653c442f6ad6cb3!2sLacteos%20El%20Portillo!5e0!3m2!1sen!2sco!4v1602991620025!5m2!1sen!2sco" width="300px" height="250px" frameborder="0" style="border:0;" onload="resizeIframe(this)" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
+            </div>
+            <p class="descripcion">Ubicación: Bogotá, Colombia <br> Transv 80B # 65 F 83 Sur</p>
+            <p class="descripcion">Teléfono</p>
+            <p class="telefono"> En Bogotá: 775 04 39 <br> Línea nacional: 320 3431841</p>
+            
+        </div>
+
+        <div class="carrers">
+            <ul class="lista-imagenes">
+
+                <li><a href="images/circulo1.png"><img src="images/circulo1.png" alt=""></a></li>
+                <li><a href="images/circulo2.png"><img src="images/circulo2.png" alt=""></a></li>
+                <li><a href="images/circulo3.png"> <img src="images/circulo3.png" alt=""></a></li>
+            </ul>
+
         </div>
     </body>
     </html>
