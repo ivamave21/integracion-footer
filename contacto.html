@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ivanna Mateus">
+    <meta name="description" content="Contacto con la empresa de lacteos el portillo">
+    <title>Contacto</title>
+    <!-- FORMULARIO -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.0/css/bootstrap-datepicker3.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    
+
+
+
+    <!-- MIS ESTILOS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- Inicio formulario -->
+    <div class="container jf-form">
+        <form data-licenseKey="" name="jqueryform-8bbd53" id="jqueryform-8bbd53" action='admin.php' method='post' enctype='multipart/form-data' novalidate autocomplete="on">
+        <input type="hidden" name="method" value="validateForm">
+        <input type="hidden" id="serverValidationFields" name="serverValidationFields" value="">
+        <div class="form-group f1 required" data-fid="f1">
+        <label class="control-label" for="f1">Nombre</label>
+        <div class="input-group"><span class="input-group-addon left"><i class="glyphicon glyphicon-user"></i> </span>
+        <input type="text" class="form-control" id="f1" name="f1" value=""   placeholder="Nombre y Apellido " 
+            data-rule-required="true"  />
+        </div>
+        </div>
+        <div class="form-group f2 required" data-fid="f2">
+        <label class="control-label" for="f2">Teléfono</label>
+        <div class="input-group"><span class="input-group-addon left"><i class="fa fa-phone"></i> </span>
+        <input type="email" class="form-control" id="f2" name="f2" value=""  placeholder="Celular o teléfono de contacto" 
+            data-rule-email="true" 
+            data-rule-required="true"  />
+        </div>
+        </div>
+        <div class="form-group f3 required" data-fid="f3">
+        <label class="control-label" for="f3">Correo</label>
+        <div class="input-group"><span class="input-group-addon left"><i class="fa fa-envelope"></i> </span>
+        <textarea class="form-control" id="f3" name="f3" rows="3"  placeholder="Correo electrónico " 
+            data-rule-required="true" ></textarea>
+        </div>
+        </div>
+        <div class="form-group f4 required" data-fid="f4">
+        <label class="control-label" for="f4">¿Cómo te podemos ayudar?</label>
+        <div class="input-group"><span class="input-group-addon left"><i class="fa fa-question-circle"></i> </span>
+        <input type="text" class="form-control" id="f4" name="f4" value=""   placeholder="Describe en pocas palabras como te podemos ayudar" 
+            data-rule-required="true"  />
+        </div>
+        </div>
+        <div class="form-group f7 required col-1" data-fid="f7">
+        <label class="control-label" for="f7">Selecciona la razón por la que nos escribes</label>
+        <div class="radio">
+              <input  id="f7_1" name="f7" checked type="radio" value="Petición" 
+            data-rule-min=""  
+            data-rule-required="true"  >
+              <label  for="f7_1">
+                  Petición
+              </label>
+          </div>
+        <div class="radio">
+              <input  id="f7_2" name="f7"  type="radio" value="Queja o reclamo"  >
+              <label  for="f7_2">
+                  Queja o reclamo
+              </label>
+          </div>
+        <div class="radio">
+              <input  id="f7_3" name="f7"  type="radio" value="Duda"  >
+              <label  for="f7_3">
+                  Duda
+              </label>
+          </div>
+        </div>
+        <div class="form-group submit f0 " data-fid="f0" style="position: relative;">
+          <label class="control-label sr-only" for="f0" style="display: block;">Submit Button</label>
+        <div class="progress" style="display: none; z-index: -1; position: absolute;">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%">
+            </div>
+          </div>
+        <button type="submit" class="btn btn-primary btn-lg" style="z-index: 1;">
+            <span class="fa fa-send-o" aria-hidden="true"></span>
+                Enviar 
+          </button>
+        </div><div class="clearfix"></div>
+        <div class="submit">
+          <p class="error bg-warning" style="display:none;">
+            Please check the required fields.  </p>
+        </div>
+        <div class="clearfix"></div>
+        </form>
+        <a href="http://www.jqueryform.com" target="_blank" class="jf-copyright">Powered by jqueryform.com</a>
+        </div>
+        <div class="container jf-thankyou" style="display:none;" data-redirect="" data-seconds="15">
+          <h3>{f1} gracias por comunicarte con Lácteos &quot;El Portillo&quot;, tu mensaje será leído y contestado en el menor tiempo posible.</h3>
+        </div>
+        <!-- FINAL FORMULARIO -->
+
+    <!-- ESTILOS FORMULARIO -->
+    .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+        position: relative;
+        margin-top: 0px;
+        margin-left: 2px;
+    }
+    
+    .checkbox label, .radio label {
+       padding-left: 4px;
+    }
+    
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/icheck/1.0.2/icheck.min.js"></script>
+    <script type="text/javascript">
+    
+    
+    ;(function ($, undefined)
+    {
+    
+    var checkers = '.icheckbox_flat-blue, .iradio_flat-blue';
+    
+    function initICheck( $input ){
+      $input.iCheck({
+            checkboxClass: 'icheckbox_flat-blue',
+            radioClass: 'iradio_flat-blue'
+      }).on('ifClicked', function(e){
+        setTimeout( function(){
+          $(e.target).valid();
+          $(e.target).trigger('change').trigger('handleOptionBox');
+        }, 250);
+      });
+    }; // func
+    
+    //$('.jf-form .checkbox, .jf-form .radio')
+    $('.jf-form input[type="checkbox"], .jf-form input[type="radio"]').each( function( i, e ){
+        var $input = $(e), $div = $input.closest('.checkbox,.radio'), hasImg = $div.find('label > img').length;
+        if( hasImg ){
+    
+            $input.css({ 'opacity': '0', 'position': 'absolute', 'left': '-1000px', 'right': '-1000px'} );
+    
+        }else{
+    
+            initICheck( $input );
+    
+            // IE11 and under, the table-cell makes the checkboxes/radio buttons not clickable
+            var isWin = navigator.platform.indexOf('Win') > -1,
+                isEdge = navigator.userAgent.indexOf('Edge/') > -1,
+                noTableCell = isWin && !isEdge;
+            if( !noTableCell ){
+              $div.find('label').css( { display: 'table-cell' } );
+              $(checkers).css( { display: 'table-cell' } );
+            };
+    
+        };
+    });
+    
+    })(jQuery);
+    
+    </script>
+    <!-- [ End: iCheck support ] ---------------------------------- -->
+    
+    
+    <script type="text/javascript">
+    
+        // start jqueryform initialization
+        // --------------------------------
+        JF.init( '#' + $('.jf-form > form:first-child').attr('id') );
+    
+    </script>
+
+    
+</body>
+</html>
