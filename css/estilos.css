@@ -494,10 +494,8 @@ div.thumbnail{
 /* Productos body */
 .productos{
   background-image: url("../images/manchafondo.png");
-  width:auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:500px;
+  background-repeat: repeat;
+  height:1400px;
 }
 .pruductos #lista-productos{
   display:flex;
@@ -534,5 +532,109 @@ div.thumbnail{
 .productos .descripcion p{
   width:269px;
   text-align:right;
-  margin-left:55px;
+  margin-left:10%;
 }
+
+.productos .lonchera .titulo{
+  margin-right: 30px;
+}
+
+.productos .botella .titulo{
+  margin-right: 30px;
+}
+
+.productos .franja-vaca{
+  background-color:#80CCF0;
+  display:flex;
+  height:50px;
+  padding-left:19%;
+}
+
+.productos .franja-vaca h2{
+  color:white;
+  font-family: 'Fredoka One', cursive;
+  font-size:14px;
+}
+
+.productos .franja-vaca p{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size:8px;
+}
+.productos .franja-vaca .texto{
+  margin-top: 10px;
+}
+.productos .franja-vaca img {
+  width: 35px;
+}
+.productos .franja-vaca .vaca{
+  margin-top: 5px;
+  margin-left :15px;
+}
+.clasicos img{
+  width:269px;
+  margin-left:12%;
+}
+
+.clasicos .titulo{
+  margin-left:45%;
+}
+
+.clasicos .descripcion{
+  font-family: 'Quicksand', sans-serif;
+  color: #20CEF5;
+  font-size:10px;
+  width:269px;
+  
+}
+.covid {
+  background-color: #B8EDEA;
+  padding-left:12%;
+  height: 150px;
+}
+
+.covid .casa{
+  
+  display: flex;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+.covid .casa p{
+  font-weight:100px;
+  font-size:20px;
+}
+
+.covid .casa i{
+  margin-left: 10%;
+  margin-top: 1%;;
+}
+.covid .contacto{
+  background-image: none;
+}
+
+.covid h3{
+  margin-top: 3%;
+  color:#00A8DD;
+  font-family: 'Fredoka One', cursive;
+  font-size:10px;
+}
+
+.covid .adquiere{
+  font-family: 'Quicksand', sans-serif;
+  color:#05AAE2;
+  font-size:10px;
+  margin-bottom:3%;
+  margin-top: 3%;
+}
+
+.covid .contacto{
+  display: flex;
+  font-family: 'Quicksand', sans-serif;
+  color:#05AAE2;
+  font-size:10px;
+}
+
+.covid .contacto .telefono{
+  padding-left: 3%;
+}
+

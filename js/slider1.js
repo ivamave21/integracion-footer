@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#lista-productos").lightSlider({
+    $("#lista-productos1").lightSlider({
         item:1,
         auto:true,
         loop:true,
